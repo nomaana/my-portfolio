@@ -1,0 +1,15 @@
+.section-title > h2 {
+  font-size: 40px !important;
+}
+
+/* @media (min-width: 778px) {
+  .headerName {
+    font-size: 30px !important;
+  }
+} */
+
+@media (max-width: 768px) {
+  .section-title > h2 {
+    font-size: 21px !important;
+  }
+}

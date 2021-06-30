@@ -1,0 +1,63 @@
+.user_img {
+  height: 34vh;
+  object-fit: contain;
+  border-radius: 0.5pc;
+  border: 3px solid yellow;
+}
+
+.headerName {
+  font-size: 30px !important;
+}
+
+@media (min-width: 778px) {
+  .headerName {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerName {
+    font-size: 18px !important;
+  }
+}
+
+.tool {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted yellow;
+}
+
+/* @media (max-width: 768px) {
+  .tool .tooltext {
+    width: 100px !important;
+  }
+} */
+
+.tool .tooltext {
+  visibility: visible;
+  width: 100px;
+  background-color: yellow;
+  color: #252525;
+  text-align: center;
+  border-radius: 2%;
+  padding: 7px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 130%;
+  left: 20%;
+  margin-left: -60px;
+}
+
+.tool .tooltext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -35%;
+  border-width: 11px;
+  border-style: solid;
+  border-color: yellow transparent transparent transparent;
+}
+.tool:hover .tooltext {
+  visibility: visible;
+}

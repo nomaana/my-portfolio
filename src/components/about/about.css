@@ -1,0 +1,15 @@
+.about_text {
+  text-align: center;
+}
+
+.about_text > h3 {
+  color: yellow;
+}
+.content > p {
+  color: yellow;
+}
+@media (max-width: 768px) {
+  .content > p {
+    font-size: 13px !important;
+  }
+}
